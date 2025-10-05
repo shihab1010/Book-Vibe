@@ -36,13 +36,14 @@ const Navbar = () => {
             {links}
           </ul>
         </div>
-        <a className="btn btn-ghost text-xl">daisyUI</a>
+        <a className="btn btn-ghost text-xl">Boi-Poka</a>
       </div>
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal px-1">{links}</ul>
       </div>
       <div className="navbar-end">
-        <a className="btn">Button</a>
+        <a className="btn  bg-[#23BE0A] text-white">Sign-In</a>
+        <a className="btn bg-[#59C6D2] text-white">Sign-Up</a>
       </div>
     </div>
   );
